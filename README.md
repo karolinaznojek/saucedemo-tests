@@ -28,8 +28,16 @@ pytest test_login.py -v
 ```
 
 
-\## O mnie
+## Testy API
 
+Dodatkowo przygotowałam kolekcję testów API w Postmanie ([`JSONPlaceholder API Tests.postman_collection.json`](./JSONPlaceholder%20API%20Tests.postman_collection.json)), testującą publiczne API [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com/):
+- Pobranie listy użytkowników
+- Pobranie pojedynczego użytkownika
+- Test negatywny — próba pobrania nieistniejącego użytkownika (weryfikacja kodu 404)
+
+
+
+\## O mnie
 
 
 Jestem testerką manualną z 3-letnim doświadczeniem w testowaniu systemów zintegrowanych w branży ubezpieczeniowej (testy funkcjonalne, regresyjne, integracyjne). Ten projekt to część mojego rozwoju w stronę szerszej praktyki testowej i podstaw automatyzacji.
