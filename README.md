@@ -14,20 +14,18 @@ Przetestowałam funkcjonalność logowania, wykorzystując różne konta testowe
 
 
 
-\## Zawartość
+## Zawartość
 
+- [`test-cases.md`](./test-cases.md) — 4 przypadki testowe dla funkcjonalności logowania, w tym jeden zidentyfikowany defekt
+- [`test_login.py`](./test_login.py) — 3 automatyczne testy w Playwright (Python), pokrywające scenariusze pozytywne i negatywne logowania
 
+## Jak uruchomić testy automatyczne
 
-\- \[`test-cases.md`](./test-cases.md) — 4 przypadki testowe dla funkcjonalności logowania, w tym jeden zidentyfikowany defekt
-
-
-
-\## Znalezione defekty
-
-
-
-Podczas testów z kontem `problem\_user` zidentyfikowałam błąd: pole "Last Name" w formularzu checkout nie przyjmuje wpisywanego tekstu (szczegóły w TC-01).
-
+```
+pip install pytest-playwright
+playwright install
+pytest test_login.py -v
+```
 
 
 \## O mnie
