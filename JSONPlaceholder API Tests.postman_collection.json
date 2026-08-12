@@ -1,0 +1,84 @@
+{
+  "info": {
+    "_postman_id": "bac481f7-53c4-4d90-b7cd-3b30c4850150",
+    "name": "JSONPlaceholder API Tests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54827804"
+  },
+  "item": [
+    {
+      "name": "https://jsonplaceholder.typicode.com/users",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/users",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "users"
+          ]
+        },
+        "description": "Get all users"
+      },
+      "response": []
+    },
+    {
+      "name": "https://jsonplaceholder.typicode.com/users/1",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/users/1",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "users",
+            "1"
+          ]
+        },
+        "description": "Get single user"
+      },
+      "response": []
+    },
+    {
+      "name": "https://jsonplaceholder.typicode.com/users/999",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/users/999",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "users",
+            "999"
+          ]
+        },
+        "description": "Get non-existent user"
+      },
+      "response": []
+    }
+  ]
+}
